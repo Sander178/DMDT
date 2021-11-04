@@ -1,0 +1,21 @@
+For the assignment I used two of my favorite movies to see how the code would respond to two very different types of movies.
+The movies I used are 'Star Wars: Episode V - The Empire Strikes Back' and 'Fear and Loathing in Las Vegas'.
+
+For 'Fear and Loathing in Las Vegas' I just ran the code based on the Summary.
+I did lower the value of 0.99 to 0.50 and 0.10, since the first two weren't giving my any results.
+After lowering the value to 0.10 I did get various recommendations, with the first one being 'Pirates of the Caribbean'.
+First I was suprised by this result but then I remembered that Johnny Depp plays the main character in both movies.
+This must have be described in the Summary of both movies since I didn't run the code based on Starring.
+
+For 'Star Wars: Episode V - The Empire Strikes Back' I ran the code based on Summary, Starring & title.
+When using Summary at 0.50 I unsurprisingly got a bunch of other Star Wars movies such as 'Revenge of the Sith' & 'Return of the Jedi'.
+
+When using Starring at 0.10 I got only 3 results. Unsurpringly these were the other two movies from the same trilogy which mostly share the same cast.
+I was however surprised by the absence of 2015's 'The Force Awakens' which brings back most of the cast from the original three movies.
+I also thought it was odd that the other two movies from the trilogy had values of 0.52 and 0.48 while the cast is mostly similar.
+Perhaps the difference can be explained by a large amount of background actors and actresses who only appear in one of the movies.
+
+Lastly, I also used title. This gave me the most surprising result of all, the movie with the highest value was 'Raiders of the Lost Ark'.
+I was expecting movies like 'Star Wars: Episode VI - Return of the Jedi, since almost half of the title is already the same to 'The Empire Strikes Back'.
+It should however be noted that all three of the results are in fact produced by Lucasfilm just like 'The Empire Strikes Back'.
+Perhaps this has something to do with the result, although I don't see what this has to do with the title of the movies.
